@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!-- Set AppCompat’s color theming attrs -->
+
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+
+    </style>
+</resources>
